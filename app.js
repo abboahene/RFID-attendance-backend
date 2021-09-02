@@ -16,7 +16,7 @@ app.use(require('./routes/member'))
 ////for the web server-------------------------------------
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/rfid-attendance', {
+mongoose.connect('mongodb+srv://Kwame:nanakwame@cluster0.umxb9.mongodb.net/Rfid-attendance?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
